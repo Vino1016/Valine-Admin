@@ -3,17 +3,17 @@
 <head>
     <meta charset="utf-8" />
     <title><%= title %></title>
+    <link rel="shortcut icon" href="https://cdn.vino.run/Vino.ico" type="image/x-icon" />
+    <link rel="Bookmark" href="https://cdn.vino.run/Vino.ico" type="image/x-icon" />
     <link rel="stylesheet" href="/stylesheets/style.min.css">
     <script src="/js/medium-zoom.min.js"></script>
 </head>
 <body>
+<div class="header">
+    <div class="title"><span><%= title %></span></div>
+    <div class="logout-wrapper"><a href="/logout">退出登录</a></div>
+</div>
 <div class="comment-main">
-    <div class="header">
-        <div class="title"><span><%= title %></span></div>
-
-        <div class="logout-wrapper"><a href="/logout">退出登录</a></div>
-    </div>
-
     <ul class="content">
         <% for(var i = 0; i < comment_list.length; i++) { %>
         <li class="vcard">
