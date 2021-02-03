@@ -7,5 +7,10 @@ Valine Admin 是 [Valine 评论系统](https://deserts.io/diy-a-comment-system/)
 安装教程请以[博客最新版](https://deserts.io/valine-admin-document/)为准。
 
 ## 我主要修改了界面样式
+> 登录页面
+
 <a href="https://imgchr.com/i/yM0UqU"><img src="https://s3.ax1x.com/2021/02/03/yM0UqU.png" alt="yM0UqU.png" border="0"></a>
+
+> 管理页面
+
 <a href="https://imgchr.com/i/yM0dZF"><img src="https://s3.ax1x.com/2021/02/03/yM0dZF.png" alt="yM0dZF.png" border="0"></a>
